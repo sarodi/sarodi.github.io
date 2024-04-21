@@ -1,0 +1,9 @@
+name: "Las aventuras de Chubby"
+navbar:
+  title: "Las aventuras de Chubby"
+  left:
+    - text: "Inicio"
+      href: index.html
+  output:
+  html_document:
+  theme: darkly
