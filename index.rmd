@@ -1,0 +1,15 @@
+---
+  title: "Mi perrito tiene una página web!"
+---
+  
+  Este es Chubby.
+
+<img src="assets/chubby-inicio.jpg" style="width:50%">
+  
+  Un acercamiento a su sonrisa.
+
+<img src="assets/chubby-closeup.jpg" style="width:50%">
+  
+  Chubby de paseo por el lago!
+  
+  <img src="assets/chubby-lago.jpg" style="width:50%">
