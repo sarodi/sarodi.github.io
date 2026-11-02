@@ -65,14 +65,3 @@ body {
   width: 12%;
   height: 3.5%;
 }
-
-/* Estilo secciones inferiores */
-.content-section {
-  max-width: 800px;
-  margin: 40px auto;
-  padding: 40px;
-  background: #ffffff;
-  border-radius: 12px;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
-  text-align: center;
-}
