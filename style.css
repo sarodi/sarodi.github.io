@@ -1,0 +1,78 @@
+html {
+  scroll-behavior: smooth; 
+  font-family: Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Contenedor responsivo del banner */
+.interactive-banner {
+  position: relative;
+  width: 100%;
+  max-width: 800px; /
+  margin: 0 auto;
+}
+
+.base-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Configuración botones */
+.hotspot {
+  position: absolute;
+  cursor: pointer;
+
+  background-color: transparent;
+  border-radius: 20px; 
+  transition: background-color 0.2s ease;
+}
+
+/* Efecto al pasar cursor */
+.hotspot:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+
+.btn-registro {
+  top: 15%;
+  left: 40%;
+  width: 20%;
+  height: 4%;
+}
+
+.btn-instructor {
+  top: 21%;
+  left: 31%;
+  width: 12%;
+  height: 3.5%;
+}
+
+.btn-agenda {
+  top: 21%;
+  left: 45%;
+  width: 10%;
+  height: 3.5%;
+}
+
+.btn-materiales {
+  top: 21%;
+  left: 57%;
+  width: 12%;
+  height: 3.5%;
+}
+
+/* Estilo secciones inferiores */
+.content-section {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 40px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+  text-align: center;
+}
