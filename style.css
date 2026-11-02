@@ -1,5 +1,8 @@
 html {
-  scroll-behavior: smooth; 
+  scroll-behavior: smooth;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
   font-family: Arial, sans-serif;
 }
 
@@ -8,13 +11,19 @@ body {
   padding: 0;
 }
 
-/* Contenedor responsivo del banner */
-.interactive-banner {
+.image-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.banner-container {
   position: relative;
   width: 100%;
-  max-width: 800px; /
-  margin: 0 auto;
+  max-width: 800px; 
 }
+
 
 .base-image {
   width: 100%;
@@ -22,46 +31,68 @@ body {
   display: block;
 }
 
-/* Configuración botones */
 .hotspot {
   position: absolute;
   cursor: pointer;
 
-  background-color: transparent;
-  border-radius: 20px; 
+  background-color: rgba(255, 0, 0, 0.3); 
+  border-radius: 15px;
   transition: background-color 0.2s ease;
 }
 
-/* Efecto al pasar cursor */
 .hotspot:hover {
-  background-color: rgba(255, 255, 255, 0.15);
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 
-.btn-registro {
-  top: 15%;
-  left: 40%;
-  width: 20%;
+.menu-instructor {
+  top: 9%;
+  left: 30%;
+  width: 12%;
   height: 4%;
 }
 
-.btn-instructor {
-  top: 21%;
-  left: 31%;
-  width: 12%;
-  height: 3.5%;
-}
-
-.btn-agenda {
-  top: 21%;
-  left: 45%;
+.menu-agenda {
+  top: 9%;
+  left: 44%;
   width: 10%;
-  height: 3.5%;
+  height: 4%;
 }
 
-.btn-materiales {
-  top: 21%;
-  left: 57%;
-  width: 12%;
-  height: 3.5%;
+.menu-materiales {
+  top: 9%;
+  left: 56%;
+  width: 13%;
+  height: 4%;
+}
+
+
+/* --- 2. BOTONES POR SECCIÓN --- */
+
+.btn-registro {
+  top: 50%;
+  left: 41%;
+  width: 18%;
+  height: 5%;
+}
+
+.sub-dia1 {
+  top: 27%;
+  left: 37%;
+  width: 11%;
+  height: 4%;
+}
+
+.sub-dia2 {
+  top: 27%;
+  left: 49%;
+  width: 11%;
+  height: 4%;
+}
+
+.btn-descargar {
+  top: 80%;
+  left: 34%;
+  width: 32%;
+  height: 8%;
 }
