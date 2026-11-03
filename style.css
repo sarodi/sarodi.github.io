@@ -21,9 +21,8 @@ body {
 .banner-container {
   position: relative;
   width: 100%;
-  max-width: 800px; 
+  max-width: 800px;
 }
-
 
 .base-image {
   width: 100%;
@@ -34,9 +33,8 @@ body {
 .hotspot {
   position: absolute;
   cursor: pointer;
-
   background-color: rgba(255, 0, 0, 0.3); 
-  border-radius: 15px;
+  border-radius: 20px;
   transition: background-color 0.2s ease;
 }
 
@@ -44,36 +42,54 @@ body {
   background-color: rgba(255, 255, 255, 0.2);
 }
 
-
-.menu-instructor {
-  top: 9%;
-  left: 30%;
-  width: 12%;
-  height: 4%;
+.index-instructor {
+  top: 58.5%;
+  left: 30.5%;
+  width: 11.5%;
+  height: 4.5%;
 }
 
-.menu-agenda {
-  top: 9%;
+.index-agenda {
+  top: 58.5%;
   left: 44%;
   width: 10%;
-  height: 4%;
+  height: 4.5%;
 }
 
-.menu-materiales {
-  top: 9%;
-  left: 56%;
-  width: 13%;
-  height: 4%;
+.index-materiales {
+  top: 58.5%;
+  left: 56.5%;
+  width: 12.5%;
+  height: 4.5%;
 }
-
-
-/* --- 2. BOTONES POR SECCIÓN --- */
 
 .btn-registro {
-  top: 50%;
-  left: 41%;
-  width: 18%;
+  top: 50.5%;
+  left: 41.5%;
+  width: 17%;
   height: 5%;
+}
+
+
+.page-instructor {
+  top: 7.5%;
+  left: 29.5%;
+  width: 12.5%;
+  height: 7.5%;
+}
+
+.page-agenda {
+  top: 7.5%;
+  left: 43.5%;
+  width: 11%;
+  height: 7.5%;
+}
+
+.page-materiales {
+  top: 7.5%;
+  left: 57%;
+  width: 13.5%;
+  height: 7.5%;
 }
 
 .sub-dia1 {
